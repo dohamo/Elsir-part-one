@@ -6,10 +6,10 @@
 }
 
 
-/*body {
-  background: url(bulldog.jpg) no-repeat;
+body {
+  background: url(images/bulldog.jpg) no-repeat;
   background-size: 100%;
-}*/
+}
 
 .topleft {
   font-weight: 400;
