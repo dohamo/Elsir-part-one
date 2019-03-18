@@ -2,7 +2,7 @@
 
 * {
   background: #F0ECEE;
-  font-family: "fira sans", Times, serif;
+font-family: 'Fira Sans', sans-serif;
 }
 
 
@@ -84,17 +84,9 @@ a:hover {
   align-items: center;
 }
 
-@media (max-width:900px) {
-  /*desktop first*/
+@media (min-width:768px) {
   .nav-bar {
     display: flex;
     justify-content: space-between;
   }
 }
-    display: flex;
-    justify-content: space-between;
-  }
-}
-    display: flex;
-    justify-content: space-between;
-  }
