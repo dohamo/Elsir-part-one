@@ -1,10 +1,7 @@
-/* Styles go here */
-
 * {
   background: #F0ECEE;
-font-family: 'Fira Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
-
 
 body {
   background: url(images/bulldog.jpg) no-repeat;
@@ -13,9 +10,9 @@ body {
 
 .topleft {
   font-weight: 400;
-   position: absolute;
-   left: 0;
-   flex-wrap:wrap;
+  position: absolute;
+  left: 0;
+  flex-wrap: wrap;
 }
 
 .top-left span {
@@ -40,7 +37,7 @@ body {
   text-decoration: none;
   padding: 10px;
   border-radius: 15px;
-  line-height: 35px
+  line-height: 35px;
 }
 
 .contact {
@@ -48,7 +45,8 @@ body {
   text-decoration: none;
   padding: 10px;
   border-radius: 15px;
-  background-color: #FF4850
+  background-color: #FF4850;
+  max-width: 100%;
 }
 
 h2 span {
@@ -64,7 +62,7 @@ h2 span {
 }
 
 .direct a {
-  max-width: 100%
+  max-width: 100%;
   font-weight: 300;
   padding: 10px;
   border-radius: 15px;
@@ -87,7 +85,7 @@ a:hover {
 }
 
 @media (min-width:768px) {
-  .nav-bar {
+  .nav-bar, .direct {
     display: flex;
     justify-content: space-between;
   }
