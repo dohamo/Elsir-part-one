@@ -40,6 +40,7 @@ body {
   text-decoration: none;
   padding: 10px;
   border-radius: 15px;
+  line-height: 35px
 }
 
 .contact {
@@ -63,6 +64,7 @@ h2 span {
 }
 
 .direct a {
+  max-width: 100%
   font-weight: 300;
   padding: 10px;
   border-radius: 15px;
